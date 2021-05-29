@@ -1,0 +1,4 @@
+.main {
+  min-height: calc(98vh - calc(var(--header-height) + var(--footer-height)));
+  padding: 1vh 1vw;
+}

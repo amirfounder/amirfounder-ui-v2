@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1vh 1vw;
+  min-height: calc(var(--header-height) - 2vh);
+  color: var(--color-terminal-white);
+}
+
+.one {
+  justify-self: start;
+}
+
+.two {
+  justify-self: end;
+}
+
+.link:hover {
+  cursor: pointer;
+}

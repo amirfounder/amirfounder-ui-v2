@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:100|Roboto+Mono:200|Roboto+Mono:300|Roboto+Mono:400|");
+@import './assets/scss/MainTokens.scss';
+
+:root {
+  background-color: var(--color-terminal-black);
+  color: var(--color-terminal-green);
+  font-family: 'Roboto Mono', monospace;
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
